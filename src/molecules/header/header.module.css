@@ -1,0 +1,42 @@
+.navWrapper{
+    display: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconWrapper{
+    padding-right: 2rem;
+   
+}
+.logo{
+    size: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+}
+
+
+@media screen and (min-width:1024px) {
+
+  .header{
+    /* border: 1px solid red; */
+    height: 6.25rem;
+    /* display: flex;
+    align-items: center; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }  
+  .logo{
+   flex : 1;
+   box-shadow: unset;
+  }
+  .navWrapper{
+  flex : 5;
+  display: unset;
+  /* border: 1px solid green; */
+ 
+  }
+  .iconWrapper{
+    display: none;
+    
+  }
+}
